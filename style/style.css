@@ -5,8 +5,29 @@
 }
 h1 {
 		color: #ff0000;
+    font-family: arial,verdana,sans-serif;
+    font-style: italic;
 	}
+
 body{
 
-   background-color: rgb(143, 83, 134)
+   background-color: rgb(245, 245, 245)
 }
+
+a:link{
+  color: blue;
+}
+a:visited{
+  color: red;
+
+}
+a.google{
+  background: green;
+}
+a.yahoo{
+  background: black;
+}
+
+a:active {
+		background-color: red;
+	}
