@@ -13,10 +13,18 @@
   <META NAME="ROBOTS" CONTENT="INDEX,NOFOLLOW">
   <title>  Ola </title>
 
-
   </head>
 
 <body>
+
+  <form NAME='clientes'>
+    <input type="text" name="nome" value=""/>
+  </form>
+  <a name = 'a'>"1"</a>
+<script>
+document.write(document.forms[0].elements[0].value);
+
+</script>
 
   <script>
   function createuser(name,password){
@@ -25,11 +33,26 @@
     this.name = name + '    '+  complemento;
   }
   user = new createuser('pedro','123');
-  document.write(user.name)
+  document.write(user.name);
 
 
+  function hello(){
+    for (var a=0;a<2;a++){
+        alert("Hello World !");
+    }
+    var nm = prompt('coloca teu nome ai','default');
+    if (nm==='pedro'){
+        alert('darkside');
+      }
+    else {
+      alert(nm);
+    }
 
+  }
+  hello();
   </script>
+
+
 
   <strong>Vamo</strong>
   <h1>ôooe</h1>
