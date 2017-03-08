@@ -1,8 +1,23 @@
-function say(nome){
+class student{
+  fullname: string;
 
-  return "hello"+nome;
+  constructor(public first, public last){
+    this.fullname =  first +" " + last;
+
+  }
+
 
 }
-var user = "Pedro "
+
+interface IPerson{
+    first: string;
+    last: string;
+}
+function say(person: IPerson){
+
+  return "hello"+person;
+
+}
+var user = {first:"pedro",last:"cardoso"};
 
 console.log(say(user));
