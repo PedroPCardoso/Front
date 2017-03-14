@@ -6,19 +6,21 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { tela } from './tela-inicial/tela.component';
 import { MeucliComponent } from './meucli/meucli.component';
-
+import { TestComponent } from './test/test.component';
+import {TestService} from './test/test.service';
 @NgModule({
   declarations: [
     AppComponent,
     tela,
-    MeucliComponent
+    MeucliComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [ TestService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
