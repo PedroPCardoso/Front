@@ -7,13 +7,16 @@ import { AppComponent } from './app.component';
 import { tela } from './tela-inicial/tela.component';
 import { MeucliComponent } from './meucli/meucli.component';
 import { TestComponent } from './test/test.component';
+import {DataBindingComponent} from './data-binding/data-binding.component';
+
 import {TestService} from './test/test.service';
 @NgModule({
   declarations: [
     AppComponent,
     tela,
     MeucliComponent,
-    TestComponent
+    TestComponent,
+    DataBindingComponent,
   ],
   imports: [
     BrowserModule,

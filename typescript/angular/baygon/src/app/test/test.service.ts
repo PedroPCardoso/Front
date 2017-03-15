@@ -7,7 +7,7 @@ export class TestService {
 
   getCursos(){
 
-    return ['Python','GO','Angularjs2'];
+    return ['Python','GO','Angularjs'];
   }
 
 }
